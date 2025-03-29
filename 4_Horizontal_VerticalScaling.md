@@ -94,4 +94,3 @@ Vertical scaling has physical and cost limitations. As resources increase, costs
 
 ---
 
-Let me know if you need more adjustments or additional topics! 🚀
