@@ -50,6 +50,7 @@ CRUD stands for **Create**, **Read**, **Update**, and **Delete**. These are the 
 ---
 
 ### **Compaction Process**  
+- Insert can be considered as an update,by marking the old key value as defunct and updating the new value for the key. whenever new value is found for the key it will be considered as new value.
 - As data is updated or deleted, older versions become obsolete.  
 - Compaction removes defunct data and consolidates fragmented files.  
 - Creates a new, clean file while updating the in-memory hash table with fresh offsets.  
