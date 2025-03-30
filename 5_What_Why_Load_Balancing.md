@@ -1,6 +1,41 @@
-Here are the **GitHub Notes** for the topic "What and Why of Load Balancing" formatted in Markdown:
 
----
++-------------------------------------------------------+
+|                      LOAD BALANCER                     |
+|                                                       |
+|  +--------------------+      +--------------------+    |
+|  |     Client 1       |----->|                    |    |
+|  +--------------------+      |                    |    |
+|                              |    Load Balancer    |    |
+|  +--------------------+      |                    |    |
+|  |     Client 2       |----->|                    |    |
+|  +--------------------+      +--------------------+    |
+|                                                       |
++------------------+---------+---------+-----------------+
+                   |                   |
++------------------v---------+ +--------v----------------+
+|       Server 1 (Active)    | |   Server 2 (Active)      |
+|   - Processes requests     | | - Processes requests     |
+|   - Responds to clients    | | - Responds to clients    |
++----------------------------+ +--------------------------+
+                   |                   |
++------------------v---------+ +--------v----------------+
+|       Server 3 (Backup)    | |   Server 4 (Backup)      |
+|   - Stays idle unless      | | - Activates on failure   |
+|     primary server fails   | | - Takes over traffic     |
++----------------------------+ +--------------------------+
+
+                 Traffic Distribution Techniques:
++---------------------------------------------------------+
+| Round Robin | Least Connections | Least Response Time    |
+| Hashing     | DNS-Based         | Health Checks & Failover|
++---------------------------------------------------------+
+
+                 Backup Strategies:
++---------------------------------------------------------+
+| Active-Active: All servers handle traffic simultaneously |
+| Active-Passive: Backup server takes over on failure      |
++---------------------------------------------------------+
+
 
 # **What and Why of Load Balancing**
 
