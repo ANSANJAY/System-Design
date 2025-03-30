@@ -1,4 +1,4 @@
-
+```
 +-------------------------------------------------------+
 |                      LOAD BALANCER                     |
 |                                                       |
@@ -35,7 +35,7 @@
 | Active-Active: All servers handle traffic simultaneously |
 | Active-Passive: Backup server takes over on failure      |
 +---------------------------------------------------------+
-
+```
 
 # **What and Why of Load Balancing**
 
