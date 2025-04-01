@@ -1,36 +1,72 @@
-# System Design Foundation
+# System Design Primer
 
-Welcome to the **System Design Foundation** repository! 🚀
+Welcome to the ** System Design Primer** repository! This repository contains detailed notes, insights, and concepts related to advanced system design topics. The focus is on practical scenarios and real-world examples that build a deeper understanding of system design fundamentals.
 
-This repository aims to break down essential concepts in system design, providing an in-depth understanding of each topic. Each concept is organized as a standalone document that includes:
+## 📂 Repository Structure
 
-1. **Explanation:** A clear and concise breakdown of the idea.
-2. **Interview Questions:** Thought-provoking questions to assess your grasp.
-3. **Analogy:** A creative comparison to help remember the concept.
+The repository is organized into individual topic files. Each file contains comprehensive notes on a specific concept.
 
-## Topics Covered
+### Topics Covered:
 
-| Topic No. | Concept Adventure | Estimated Time | Status |
-| --- | --- | --- | --- |
-| 1 | The Building Blocks of Great Systems | around 17 minutes | Not Started |
-| 2 | Fast-Paced Data Exchange: Client and Server Style | approximately 20 minutes | Not Started |
-| 3 | How Devices Talk: The Secret Language of Networks | about 2roughly 4 minutes | Not Started |
-| 4 | Growing Pains: Stretching Up or Spreading Out? | roughly 1nearly 8 minutes | Not Started |
-| 5 | Directing the Data Parade: Load Balancing Fun | roughly 18 minutes | Not Started |
-| 6 | The Heart of Data: Database Basics | close to 23 minutes | Not Started |
-| 7 | Playing with Data: The CRUD Story | roughly 14 minutes | Not Started |
-| 8 | Copying the Boss: Primary Leader Replication | around 15 minutes | Not Started |
-| 9 | Leaders Working Together: Multi-Leader Sync | approximately 10 minutes | Not Started |
-| 10 | Teamwork Without a Boss: Leaderless Replication | about 25 minutes | Not Started |
-| 11 | The Impossible Triangle: CAP Theorem Tales | 8 minutes | Not Started |
-| 12 | Speeding Up the Web: Content Delivery Networks | close to 21 minutes | Not Started |
-| 13 | Slicing Data into Pieces: Sharding Magic | around 16 minutes | Not Started |
-| 14 | Data Dance: Moving Data Around (Resharding) | 4 minutes | Not Started |
-| 15 | Building Bridges: Crafting APIs | approximately 5 hours | Not Started |
+| No | Topic                                                      | Estimated Time | Status |
+| -- | ---------------------------------------------------------- | ------------- | ------ |
+| 1  | Client-Server and Online Processing Overview                | 13:00          | ✅     |
+| 2  | Functional Requirements for URL Shortening                  | 26:40          | ✅     |
+| 3  | Analyzing Depth versus Breadth in System Design              | 11:00          | ✅     |
+| 4  | Basic Counting Techniques for URL Shorteners                | 12:00          | ✅     |
+| 5  | Advanced Counting Strategies for URL Shorteners             | 28:00          | ✅     |
+| 6  | Using Cryptographic Hashing in URL Shortening               | 27:00          | ✅     |
+| 7  | Offline Key Generation for URL Shortening                   | 05:00          | ✅     |
+| 8  | Network Protocol Essentials                                 | 20:00          | ✅     |
+| 9  | Fundamentals of Web Server Architecture                     | 37:00          | ✅     |
+| 10 | Understanding Hash Index Structures                         | 11:00          | ✅     |
+| 11 | Scaling Up and Scaling Out: Concepts and Comparisons         | 15:00          | ✅     |
+| 12 | Data Scaling Strategies for URL Shorteners                  | 33:00          | ✅     |
+| 13 | Throughput Optimization for URL Shorteners                  | 23:00          | ✅     |
+| 14 | Key Metrics for System Performance                          | 22:00          | ✅     |
+| 15 | Service Level Objectives and Agreements (SLOs and SLAs)      | 06:00          | ✅     |
+| 16 | Latency, Response Time, and Bandwidth Considerations         | 15:00          | ✅     |
+| 17 | Reverse and Forward Proxy Concepts                          | 10:00          | ✅     |
+| 18 | Effective Load Balancing Techniques                         | 15:00          | ✅     |
+| 19 | IP Anycast: Routing and Implementation                      | 18:00          | ✅     |
+| 20 | CRUD Operations in System Design                            | 11:00          | ✅     |
+| 21 | Data Replication with a Single Leader                       | 12:00          | ✅     |
+| 22 | Multi-Leader Data Replication Techniques                    | 08:00          | ✅     |
+| 23 | Leaderless Replication: Quorum Reads and Writes              | 20:00          | ✅     |
+| 24 | The CAP Theorem: Consistency, Availability, and Partition Tolerance | 07:00 | ✅ |
+| 25 | Distributing Content Effectively Across Networks            | 17:00          | ✅     |
+| 26 | Handling Reads and Writes with Caching                      | 22:00          | ✅     |
+| 27 | Implementing LRU Caching for Optimization                   | 46:00          | ✅     |
+| 28 | Data Partitioning through Sharding                          | 13:00          | ✅     |
+| 29 | Repartitioning Data Efficiently (Resharding)                | 05:00          | ✅     |
+| 30 | Consistent Hashing Techniques in System Design              | 30:00          | ✅     |
+| 31 | Key-Value Store Fundamentals                                | 11:00          | ✅     |
+| 32 | Relational Databases and Index Structures                   | 20:00          | ✅     |
+| 33 | SQL Concepts: Normalization and Foreign Key Management      | 19:00          | ✅     |
+| 34 | ACID Transactions in Database Systems                       | 14:00          | ✅     |
+| 35 | Exploring Big Data and NoSQL Paradigms                      | 08:00          | ✅     |
 
-## Repository Structure
-- Every topic is documented separately, making it easy to learn and navigate.
-- The topics are designed to be self-contained, so you can study each one independently.
+---
 
-Keep exploring and enhancing your system design knowledge! 💡
+## 🛠️ How to Use
 
+- Browse the topic-specific Markdown files for detailed notes.
+- Use the syllabus table to navigate and track your progress.
+- Each file covers one topic for easy reference.
+
+## 💡 Contributing
+
+Contributions are welcome! Feel free to fork the repository and make improvements. Open an issue if you encounter any problems or want to suggest enhancements.
+
+1. Fork the repository.
+2. Create a branch for your feature or fix.
+3. Submit a pull request with a clear description of the changes.
+
+
+---
+
+## 💬 Contact
+
+If you have any questions or suggestions, feel free to reach out via GitHub issues or discussions.
+
+Happy Learning! 🚀
